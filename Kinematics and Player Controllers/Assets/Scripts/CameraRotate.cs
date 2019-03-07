@@ -19,6 +19,7 @@ public class CameraRotate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+        // Rotate 
         if (Input.GetMouseButton(1))
         {
             float deltaX = Input.mousePosition.x - lastMouseX;
@@ -38,5 +39,7 @@ public class CameraRotate : MonoBehaviour {
 
         lastMouseX = Input.mousePosition.x;
         lastMouseY = Input.mousePosition.y;
+
+        // Zoom
 	}
 }

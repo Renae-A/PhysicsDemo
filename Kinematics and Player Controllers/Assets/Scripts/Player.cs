@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
         transform.Rotate(transform.up, horizontal * speed * Time.deltaTime);
         animator.SetFloat("Speed", vertical * speed * Time.deltaTime);
-	}
+  	}
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
