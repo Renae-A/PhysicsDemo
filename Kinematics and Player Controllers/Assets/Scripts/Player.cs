@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
         {
             // zero our vertical velocity
             if (velocity.y < 0)
-                velocity.y = hit.point.y - transform.position.y;
+                velocity.y = 0;
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
